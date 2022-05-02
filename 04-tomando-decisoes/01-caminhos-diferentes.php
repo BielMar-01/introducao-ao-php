@@ -10,6 +10,11 @@ if ($idade == $idadeLiberados || $idade > $idadeLiberados) {
   echo 'Pode entrar' . PHP_EOL;;
 }
 
+if ($idade >= $idadeLiberados) {
+  echo "Você tem $idade anos." . PHP_EOL;
+  echo 'Pode entrar' . PHP_EOL;;
+}
+
 if ($idade >= $idadeLiberados && $nome == 'Gabriel') {
   echo "Meu nome é $nome e tenho $idade anos." . PHP_EOL;
   echo 'Pode entrar';
